@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 10px;
+    color: bisque;
+    font-size: 20px;
+    text-decoration: none;
+}
+#Home img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#Bio p{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#PortFolio p{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+#Contact{
+    background-color: lightsalmon;
+}
+footer{
+    background-color: rgb(80, 202, 202);
+}
+body{
+    background-color: beige;
+}
