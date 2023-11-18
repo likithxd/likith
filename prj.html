@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        text-align: center;
+        background-color: rgba(37, 231, 221, 0.885);
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+     h2{
+        text-align: center;
+     }
+     label{
+        display: block;
+       
+     }
+     input[type=text],
+     input[type=tel],
+     input[type=email],
+     input[type=password],
+     input[type=gender],
+     input[type=radio],
+     input[type=checkbox],
+     input[type=button],
+     input[type=hidden],
+     input[type=tel],
+     input[type=week],
+     input[type=time],
+     input[type=url],
+     input[type=search],
+     input[type=file], 
+     input[type=search],
+     input[type=range],
+     input[type=submit],
+     input[type=image],
+     input[type=datetime-local],
+     input[type=date],
+     input[type=month],
+     input[type=reset],
+     textarea,select{
+        border-radius: 10px;
+     }
+     input[type=submit]{
+background-color: rgb(68, 193, 26);
+cursor: pointer;
+     }
+     input[type=submit]:hover{
+        background-color: rgba(0, 60, 255, 0.182);
+     }
+     input[type=reset]{
+background-color: rgb(193, 26, 26);
+cursor: pointer;
+     }
+     input[type=submit]:hover{
+        background-color: rgba(255, 255, 0, 0.182);
+     }
+
+     
+
+    </style>
+<body>
+    <h2>Registration Form OF STUDENTS</h2>
+    <form action="https://formspree.io/f/xleykpae" method="post">
+        <label>Name</label>
+        <input type="text" name="name" required>
+        <label>Email</label>
+        <input type="email" email="email" required>
+        <label> enter password</label>
+        <input type="password">
+        <label>Phone Number</label>
+        <input type="tel" phoneNumber="phoneNumber" required>
+        <label>gender</label>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <label>education qualification</label>
+        <input type="radio" name="grad">graduate<br>
+        <input type="radio"name="grad">post graduate<br>
+        <input type="radio"name='grad'> under graduate
+        
+        <label>select sport </label>
+        <input type="checkbox" name="select sport">cricket<br>
+        <input type="checkbox" name="select sport">kabaddi<br> 
+        <input type="checkbox" name="select sport">football<br>
+        <label>choose colour</label>
+        <input type="color">
+        <label>Birthday</label>
+        <input type="datetime-local">
+        <label>enter date</label>
+        <input type="date">
+        <label>enter time</label>
+        <input type="time">
+        <label>enter week</label>
+        <input type="week">
+        <label>enter month</label>
+        <input type="month">
+        <label>select file</label>
+        <input type="file">
+        <label>select volume</label>
+        <input type="range">
+        <label>Zipcode</label>
+        <input type="text" zipcode="zipcode" required>
+        <label>search bar</label>
+        <input type="search">
+        <label>About</label>
+        <textarea name="about"></textarea>
+        <label>upload your link</label>
+        <input type="url">
+        <label>upload image</label>
+        <input type="image" src="img_submit.gif" alt="submit" width="48" heigth="48">
+        <label>Submit</label>
+         <input type="submit" value="register"> <input type="reset" value="reset now">
+        
+</html>
